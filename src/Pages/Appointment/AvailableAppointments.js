@@ -36,7 +36,9 @@ const AvailableAppointments = ({ date }) => {
                     ></Service>)
                 }
             </div>
-            {treatment && <BookingModal date={date} treatment={treatment} setTreatment={setTreatment} refetch={refetch} ></BookingModal>}
+            {treatment && <BookingModal 
+            date={date} treatment={treatment} setTreatment={setTreatment} refetch={refetch} 
+            ></BookingModal>}
         </div>
     );
 };
